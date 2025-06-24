@@ -1,10 +1,10 @@
-# Megan Tran — Engineering Portfolio
+# Megan Tran
 
 This is my personal website and project portfolio, built with HTML and hosted using GitHub Pages.
 
 ## 📚 About Me
 
-I'm a Harvey Mudd College engineering student passionate about clean energy, public policy, and inclusive design. This site showcases my technical projects, leadership work, and resume.
+I'm a Harvey Mudd College engineering student passionate about biomedical engineering and inclusive design. This site showcases my technical projects, leadership work, and resume.
 
 ## 🌐 Live Site
 
