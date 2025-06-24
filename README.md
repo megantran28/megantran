@@ -8,7 +8,7 @@ I'm a Harvey Mudd College engineering student passionate about clean energy, pub
 
 ## 🌐 Live Site
 
-You can view the website here: [https://www.yourdomain.com](https://www.megantran.org)
+You can view the website here: [https://www.megantran.org]
 
 ## 🔧 Tech Stack
 
