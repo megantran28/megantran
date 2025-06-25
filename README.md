@@ -8,7 +8,7 @@ I'm a Harvey Mudd College engineering student passionate about biomedical engine
 
 ## 🌐 Live Site
 
-You can view the website here: [https://www.megantran.org]
+You can view the website here: [https://megantran.org]
 
 ## 🔧 Tech Stack
 
