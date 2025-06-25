@@ -1,1 +1,1 @@
-www.megantran.org
+megantran.org
