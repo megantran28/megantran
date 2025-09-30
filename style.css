@@ -238,9 +238,49 @@ main.layout {
     margin: 0.5rem 0 0;
   }
 
-  @media (min-width: 600px) {
+  .project-card img {
+    display: block;          /* makes margin auto work */
+    margin: 0.5rem auto 0;   /* top gap + horizontal centering */
+    width: auto;             /* keep original width */
+    max-width: 100%;         /* prevent overflow */
+    height: auto;            /* preserve aspect ratio */
+    border-radius: 6px;      /* optional rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* optional shadow */
+  }
+  
+  figure {
+    margin: 1.5rem 0;         /* space around image */
+    text-align: center;        /* center image and caption */
+  }
+  
+  figcaption {
+    margin-top: 0.5rem;        /* small gap above caption */
+    font-size: 0.9rem;         /* slightly smaller text */
+    color: var(--muted);       /* optional muted color */
+    font-style: italic;         /* optional italic style */
+  }
+  
+  
+
+  @media (min-width: 900px) {
     .projects-grid {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(2, 1fr); /* 3 cards per row */
     }
   }
+
+  .project-gallery {
+    display: flex;
+    flex-direction: column; /* stack images vertically */
+    gap: 1rem;              /* space between each image */
+    margin-top: 1rem;       /* space above gallery */
+    align-items: center;    /* center images horizontally */
+  }
+  
+  .project-gallery img {
+    height: auto;           /* maintain original aspect ratio */
+    max-width: 100%;        /* prevent overflow on small screens */
+    border-radius: 6px;     /* optional: slight rounding */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* optional shadow */
+  }
+  
   
